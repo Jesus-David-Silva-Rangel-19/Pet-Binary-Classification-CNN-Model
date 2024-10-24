@@ -1,0 +1,99 @@
+/* Importar estas fuentes <link href="" rel="stylesheet"> */ 
+
+/* importar fuentes de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg:wght@400;700&family=Protest+Strike&display=swap'); */
+
+body {
+    background-color: #f0f4f7;
+    color: #333;
+    font-family: 'Oldenburg', sans-serif;
+}
+
+* {
+    font-family: 'Oldenburg', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+body {
+    background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+h1 {
+    color: #343a40; /* Color de texto oscuro */
+    margin-bottom: 30px;
+}
+
+#upload-button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#prediction-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff; /* Color azul para el título */
+}
+
+h1 {
+    color: #343a40; /* Color de texto oscuro */
+    margin-bottom: 30px;
+}
+
+#drop-area {
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+#drop-area:hover {
+    background-color: #e2e6ea; /* Color de fondo al pasar el ratón */
+}
+
+#drop-area.bg-light {
+    background-color: #f0f0f0; /* Color al arrastrar imagen */
+    border: 2px dashed #007bff; /* Cambiar borde al arrastrar */
+}
+
+#upload-button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#prediction-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff; /* Color azul para el título */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
