@@ -5,7 +5,7 @@ from keras.preprocessing import image  # Usar las mismas funciones de Keras que 
 import io
 import tensorflow as tf
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="")  # Cambiado para buscar en la raíz del proyecto
 
 # Cargar el modelo entrenado desde el archivo
 model = tf.keras.models.load_model('dog_cat_classifier.h5')
